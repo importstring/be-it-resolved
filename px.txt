@@ -1,0 +1,29 @@
+1. Population Dynamics:
+   - What should be the initial population size?
+   - What is the target equilibrium frequency for the SSA phenotype?
+   - Should we implement population growth/decline or maintain constant size?
+
+2. Genetic Architecture:
+   - How many loci should influence the SSA phenotype?
+   - What should be the mutation rate per locus?
+   - Should we implement epistasis between loci?
+
+3. Selection Pressures:
+   - What is the direct fitness cost for males with SSA phenotype?
+   - How should inclusive fitness benefits be calculated?
+   - Should we implement frequency-dependent selection?
+
+4. Cultural Factors:
+   - How many cultural dimensions should we track?
+   - What is the rate of cultural transmission?
+   - How do cultural factors interact with genetic predisposition?
+
+5. Spatial Structure:
+   - What should be the migration rate between subpopulations?
+   - How should local mate choice be implemented?
+   - What is the appropriate spatial scale for interactions?
+
+6. Validation:
+   - What are the target statistics for validation?
+   - How many generations should the simulation run?
+   - What statistical tests should be used to validate results? 
